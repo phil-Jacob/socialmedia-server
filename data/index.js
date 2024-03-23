@@ -18,7 +18,7 @@ export const users = [
     lastName: "cooper",
     email: "sheldon@gmail.com",
     password: "$2b$10$dsasdgsagasda//G9JxQ4bQ8KXf4OAIe/X/AK9skyWUy",
-    picturePath: "p11.jpeg",
+    picturePath: "p4.jpeg",
     friends: [],
     location: "Texas",
     occupation: " Theoretical physicist ",
@@ -50,7 +50,7 @@ export const users = [
     lastName: "Cuoco",
     email: "penny@gmail.com",
     password: "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-    picturePath: "p4.jpeg",
+    picturePath: "p8.jpeg",
     friends: [],
     location: "Canada, CA",
     occupation: "Pharmaceutical sales representative",
@@ -66,7 +66,7 @@ export const users = [
     lastName: "Wolowitz",
     email: "howard@gmail.com",
     password: "$2b$10$dsasdgsagasda//G9JxQ4bQ8KXf4OAIe/X/AK9skyWUy",
-    picturePath: "p6.jpeg",
+    picturePath: "p10.jpeg",
     friends: [],
     location: "Altadena",
     occupation: "Aerospace engineer",
@@ -82,7 +82,7 @@ export const users = [
     lastName: "Koothrappalie",
     email: "RajeshKoothrappalie@gmail.com",
     password: "$2b$10$dsasdgsagasda//G9JxQ4bQ8KXf4OAIe/X/AK9skyWUy",
-    picturePath: "p5.jpeg",
+    picturePath: "p7.jpeg",
     friends: [],
     location: "New Delhi, India",
     occupation: "Particle Astrophysicist",
@@ -98,7 +98,7 @@ export const users = [
     lastName: "Wolowitz",
     email: "Bernadette@gmail.com",
     password: "$2b$10$dsasdgsagasda//G9JxQ4bQ8KXf4OAIe/X/AK9skyWUy",
-    picturePath: "p7.jpeg",
+    picturePath: "p2.jpeg",
     friends: [],
     location: "Los Angeles, CA",
     occupation: "Pharmaceutical biochemist",
@@ -114,7 +114,7 @@ export const users = [
     lastName: "Fowler",
     email: "AmyFarrah@gmail.com",
     password: "$2b$10$dsasdgsagasda//G9JxQ4bQ8KXf4OAIe/X/AK9skyWUy",
-    picturePath: "p8.jpeg",
+    picturePath: "p5.jpeg",
     friends: [],
     location: "Glendale, California",
     occupation: "Neuroscientist",
@@ -149,7 +149,7 @@ export const posts = [
     firstName: "Leonard",
     lastName: "Hofstadter",
     location: "New Jersey",
-    description: "Some really long random description",
+    description: "Do you like bigbang theory",
     picturePath: "post1.jpeg",
     userPicturePath: "p3.jpeg",
     likes: new Map([
@@ -173,7 +173,7 @@ export const posts = [
     description:
       "Nothing special just a guy who went to Space",
     picturePath: "post2.jpeg",
-    userPicturePath: "p6.jpeg",
+    userPicturePath: "p10.jpeg",
     likes: new Map([
       [userIds[7], true],
       [userIds[4], true],
@@ -182,7 +182,6 @@ export const posts = [
     ]),
     comments: [
       "random comment",
-      "I admire your shot!!",
       "you know when i was in space",
       "nice to be back where theres's gravity",
     ],
@@ -196,7 +195,7 @@ export const posts = [
     description:
       "They don't call me Brown Dyamite for nothing",
     picturePath: "post3.jpeg",
-    userPicturePath: "p5.jpeg",
+    userPicturePath: "p7.jpeg",
     likes: new Map([
       [userIds[1], true],
       [userIds[6], true],
@@ -220,7 +219,7 @@ export const posts = [
     description:
       "Looks cute but might kill you ",
     picturePath: "post4.jpeg",
-    userPicturePath: "p7.jpeg",
+    userPicturePath: "p2.jpeg",
     likes: new Map([
       [userIds[1], true],
       [userIds[6], true],
@@ -244,7 +243,7 @@ export const posts = [
     description:
       "Best friend of Penny",
     picturePath: "post5.jpeg",
-    userPicturePath: "p8.jpeg",
+    userPicturePath: "p5.jpeg",
     likes: new Map([
       [userIds[1], true],
       [userIds[3], true],
@@ -262,7 +261,6 @@ export const posts = [
   {
     _id: new mongoose.Types.ObjectId(),
     userId: userIds[7],
-    _id: userIds[7],
     firstName: "Jessica",
     lastName: "Dunn",
     location: "Washington, DC",
